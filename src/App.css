@@ -13,6 +13,120 @@
   }
 }
 
+@media (max-width: 480px) {
+  section {
+    padding: 2.5vw 4vw 12vh 4vw;
+  }
+  .app-screen-wrap {
+     margin-right: 4vw;
+  }
+  .app-screen {
+    max-width: 39vw;
+  }
+  .header-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .qr-wrap {
+    width: 20vw;
+  }
+  .divider-wrap {
+    margin: 18px 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  section {
+    padding: 2.5vw 10vw 12vh 10vw;
+  }
+  .app-screen-wrap {
+    margin-right: 4vw;
+  }
+  .app-screen {
+    max-width: 38vw;
+  }
+  .header-title {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .qr-wrap {
+    width: 20vw;
+  }
+  .divider-wrap {
+    margin: 18px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  section {
+    padding: 2.5vw 10vw 12vh 10vw;
+  }
+  .app-screen-wrap {
+    margin-right: 4vw;
+  }
+  .app-screen {
+    max-width: 38vw;
+  }
+  .header-title {
+    font-size: 24px;
+    margin-bottom: 36px;
+  }
+  .qr-wrap {
+    width: 20vw;
+  }
+  .divider-wrap {
+    margin: 36px 0;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  section {
+    padding: 2.5vw 30vw 12vh 30vw;
+  }
+  .app-screen {
+    max-width: 20vw;
+  }
+  .app-screen-wrap {
+    margin-right: 4vw;
+  }
+  .header-title {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+  .qr-wrap {
+    width: 20vw;
+  }
+  .divider-wrap {
+    margin: 36px 0;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  section {
+    padding: 2.5vw 30vw 12vh 30vw;
+  }
+  .app-screen {
+    max-width: 20vw;
+  }
+  .app-screen-wrap {
+    margin-right: 4vw;
+  }
+  .header-title {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+  .qr-wrap {
+    width: 20vw;
+  }
+  .divider-wrap {
+    margin: 36px 0;
+  }
+}
+
+.app-screen {
+  object-fit: scale-down;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +149,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+section {
+  /*padding: 2.5vw 30vw 12vh 30vw;*/
+  height: 100vh;
+}
+
+li {
+  margin: 0.5vh 0 0.5vh 20px;
+  list-style-type: '–  ';
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 2.5vh;
+}
+
+.header-title {
+  font-weight: 600;
+  font-family: "Source Sans Pro", Helvetica, serif;
+  color: #06122F;
+  text-align: center;
+}
+
+.qr-wrap {
+  height: auto;
+  padding: 16px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffffff;
+  max-width: 120px;
+}
+.divider-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
